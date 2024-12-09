@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html style="overflow: hidden;" class=" gnjmooumr idc0_343"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript">
+    (function() {
+      var container = document.querySelector('#_tcx-135knsjrr51p');
+      if (!container) {
+        return;
+      }
+
+      function addToContainer(url, text) {
+        const wrapper = document.createElement('div');
+        wrapper.setAttribute('data-tcx-url', url);
+        wrapper.innerText = text;
+        container.appendChild(wrapper);
+      }
+
+      const fetch = window.fetch
+      window.fetch = function() {
+        return Promise.resolve(fetch.apply(window, arguments))
+            .then(async response => {
+              if (response.ok) {
+                try {
+                  const clone = response.clone();
+                  const json = await clone.json();
+                  addToContainer(clone.url, JSON.stringify(json));
+                } catch (err) {}
+              }
+              return response;
+            });
+      };
+
+      var XHR = XMLHttpRequest.prototype;
+      var send = XHR.send;
+      var open = XHR.open;
+      XHR.open = function(method, url) {
+        this.url = url;
+        return open.apply(this, arguments);
+      };
+      XHR.send = function() {
+        this.addEventListener('load', function() {
+          try {
+            const response = this.response;
+            if (response && response.length) {
+              const firstChar = response[0];
+              if (firstChar === '[' || firstChar === '{') {
+                addToContainer(this.url, response);
+              }
+            }
+          } catch (err) {
+            // No-op.
+          }
+        });
+        return send.apply(this, arguments);
+      };
+    })();
+  </script>
+        <title>
+            Stowarzyszenie Rowerowa Gdynia im. Tomasza Milewskiego
+        </title>
+        <meta charset="utf-8">
+        <!--CSS-->
+        
+        <link rel="stylesheet" type="text/css" href="raw_pliki/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="raw_pliki/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="raw_pliki/style.css">
+        <link rel="stylesheet" type="text/css" href="raw_pliki/animate.css">
+        <!--Google Fonts-->
+	<link href="raw_pliki/css.css" rel="stylesheet">    
+
+	<link rel="apple-touch-icon" sizes="57x57" href="https://web.archive.org/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://web.archive.org/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://web.archive.org/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://web.archive.org/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://web.archive.org/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://web.archive.org/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://web.archive.org/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://web.archive.org/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://web.archive.org/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="https://web.archive.org/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://web.archive.org/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://web.archive.org/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://web.archive.org/favicon-16x16.png">
+	<link rel="manifest" href="https://web.archive.org/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    </head>
+    <body style="overflow: auto;"> 
+
+       <header class="header" id="HOME">
+                 <!-- Navigation -->
+            
+            <nav class="navbar navbar-default navbar-fixed-top">
+              
+                
+                <div class="container">
+                  
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">
+                          <!-- small size logo -->
+                          <img src="raw_pliki/srg_logo_male.png" alt="logo" style="opacity: 0;">
+
+                        </a>
+                    </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#HOME" class="nav-item">START</a></li>
+                        <li><a href="#onas" class="nav-item">O NAS</a></li>
+                        <li><a href="#historia" class="nav-item">HISTORIA</a></li>
+                        <li><a href="#dolacz" class="nav-item">DOŁĄCZ</a></li>
+                        <li><a href="#kontakt" class="nav-item">KONTAKT</a></li>
+                        <li><a href="#Polecamy" class="nav-item">POLECAMY</a></li>
+                  </ul>
+                 
+                 
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+</nav>
+          
+          
+          
+           <div class="header-overlay">
+               <div class="container">
+                   <div class="row">
+                    <div class="col-md-12">
+                        <!--Logo-->
+                        <div class="logo text-center">
+                            <img src="raw_pliki/srg_logo.png" width="120px" class="logoimg">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-8 wow bounceIn animated" style="visibility: visible; animation-name: bounceIn;">
+                        <div class="header-text" style="margin-bottom: 320px;">
+                            <h1>Stowarzyszenie "Rowerowa Gdynia"</h1>
+                            <p>im. Tomasza Milewskiego</p>
+                        </div>
+                        <div class="header-btns">
+                          <a href="#onas">
+                              <i class="fa fa-angle-down wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;"></i>
+                          </a>
+                        
+                      </div>
+                    </div>
+                </div>
+                </div>
+                   <div class="row"></div>
+               </div>
+           </div>
+       </header>
+       <!--Section About-->
+       <section id="onas">
+          
+           <div class="section-about">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 wow bounceIn animated" style="visibility: visible; animation-name: bounceIn;">
+                          <h2 class="section-title">O nas</h2>
+                          <p class="under-heading">Naszym głównym celem jest uczynienie z Gdyni miasta przyjaznego rowerom i rowerzystom</p>
+
+													
+													</div>
+                  </div>
+              </div>
+               <div class="section-wrapper">
+                   <div class="container">
+               <div class="row">
+                   <div class="col-md-4 wow bounceInDown" style="visibility: hidden; animation-name: none;">
+                       
+                           <a href="#"><i class="fa fa-user fa-5x square"></i></a>
+                           <h3 class="heading">My</h3>
+                           <p class="col-caption">Działamy od 2010 roku. Jest nas około dwadzieścioro. Mamy wpływ na rozwój sieci dróg rowerowych w Gdyni.</p>
+													<p class="col-caption wow bounceInRight" style="visibility: hidden; animation-name: none;"><a href="https://web.archive.org/web/20240930034449id_/https://rowerowagdynia.pl/statut.html">Nasz statut<img width="120px" src="raw_pliki/statut.jpg"></a></p>
+                   </div>
+                       
+                    <div class="col-md-4 wow bounceInDown" style="visibility: hidden; animation-name: none;">
+                       
+                           <a href="#"><i class="fa fa-bicycle fa-5x"></i></a>
+                           <h3 class="heading">Nasze cele</h3>
+                           <p class="col-caption">Rozwój infrastruktury rowerowej w Gdyni,  
+propagowanie alternatywnego środka transportu jakim jest rower,
+poprawa warunków przemieszczania się rowerem po mieście i jego okolicach.
+</p>
+                           
+                    </div>
+                      
+                    <div class="col-md-4 wow bounceInRight" style="visibility: hidden; animation-name: none;">
+                       
+                           <a href="#"><i class="fa fa-location-arrow fa-5x"></i></a>
+                           <h3 class="heading">Jak działamy</h3>
+                           <p class="col-caption">Rozmawiamy z miastem i
+ innymi podmiotami na temat projektów dotyczących ruchu rowerowego w 
+Gdyni. Konsultujemy projekty dróg rowerowych i organizacji ruchu. 
+Tworzymy i realizujemy projekty edukacyjne dla dzieci i dorosłych. 
+Promujemy najlepsze praktyki dotyczące ruchu rowerowego. Organizujemy 
+wydarzenia promujące poruszanie się na rowerze</p>
+                       
+                    </div>
+               </div>
+           </div>
+               </div>
+           </div>
+           
+       </section><!--end of about section-->
+       <section class="why-us" id="historia">
+            <div class="section-timeline">
+                <div class="container">
+                    <h2 class="heading">Trochę historii</h2>
+                    <ul class="timeline">
+                        
+                       
+                        <li>
+                            <div class="timeline-badge"><span class="counteryear">2017</span></div>
+                            <div class="timeline-panal  wow bounceIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Były prezes</h4>
+                                </div>
+                                <div class="timeline-body"><p>Jakub Furkal został Pełnomocnikiem ds. Rowerowych</p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge"><span class="counteryear">2016</span></div>
+                            <div class="timeline-panal  wow bounceIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">ZDiZ</h4>
+                                </div>
+                                <div class="timeline-body"><p>Jakub Furkal został Kierownikiem Referatu ds. Komunikacji Rowerowej ZDiZ</p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+                        <li>
+                            <div class="timeline-badge"><span class="counteryear">2014</span></div>
+                            <div class="timeline-panal  wow bounceIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">BRD, Rada BO</h4>
+                                </div>
+                                <div class="timeline-body"><p>Kajetan Lewandowski został powołany do BRD i Rady BO</p>
+																</div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge"><span class="counteryear">2013</span></div>
+                            <div class="timeline-panal  wow bounceIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Rowerowa Szkoła</h4>
+                                </div>
+                                <div class="timeline-body"><p>Warsztaty prowadzone przez Annę Jaremko</p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+                        <li>
+                            <div class="timeline-badge"><span class="counteryear">2012</span></div>
+                            <div class="timeline-panal  wow bounceIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Pierwsze Masy krytyczne</h4>
+                                </div>
+                                <div class="timeline-body"><p>Pomysłodawcą był Łukasz Bosowski</p></div>
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mikołaje na rowerach</h4>
+                                </div>
+                                <div class="timeline-body"><p>W 2012 i 2013 zorganizowaliśmy zimowy przejazd Mikołajów</p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge"><span class="counteryear">2011</span></div>
+                            <div class="timeline-panal  wow bounceIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Rada Rowerowa</h4>
+                                </div>
+                                <div class="timeline-body"><p>Wojtek Paszkowski zasiada w gdyńskiej Radzie Rowerowej.</p></div>
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">WPR</h4>
+                                </div>
+                                <div class="timeline-body"><p>W 2011 i 2012 współorganizowaliśmy Wielki Przejazd Rowerowy </p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+
+												
+                        <li>
+                            <div class="timeline-badge"><span class="counteryear">2010</span></div>
+                            <div class="timeline-panal  wow bounceIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Narodziny SRG</h4>
+                                </div>
+                                <div class="timeline-body"><p>Założycielami byli Michał Włoch i Jakub Furkal</p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+										</ul>
+                    
+                    
+                </div>
+            </div>
+        </section><!--end of timeline-->
+        <section id="dolacz">
+            <div class="numbers-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="section-title">Dołącz do nas</h2>
+                            <p class="under-heading">Więcej osób to więcej pomysłów i większa siła.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-database fa-5x"></i>
+                                    <div class="counter">30</div>
+                                    <p>Roczna składka w zł</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-bicycle fa-5x"></i>
+                                    <p>Poznasz innych fanów dwóch kółek</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-life-ring fa-5x"></i>
+                                    <p>Razem łatwiej rozwiązywć problemy. Spotykamy sie co miesiąć.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-flag fa-5x"></i>
+                                    <p>Przyglądamy się projektom, zanim zostaną publicznie udostępnione.</p>
+                                </div>
+                            </div>
+														
+                            <p>Przyjęcia nowych członków zwyczajnych 
+dokonuje Zarząd na podstawie rekomendacji członka Stowarzyszenia uchwałą
+ podjętą nie później niż w ciągu dwóch miesięcy od daty złożenia <a href="https://web.archive.org/web/20240930034449id_/https://rowerowagdynia.pl/deklaracjaSRG.pdf">deklaracji.</a></p>
+														
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="kontakt">
+            <div class="contact-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 wow bounceInDown" style="visibility: hidden; animation-name: none;">
+                            <h2 class="section-title">Kontakt</h2>
+                            <p class="under-heading">Nie wahaj się - pisz, dzwoń. Czekamy!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-wrapper">
+                    <div class="container">
+                        <form role="form">
+                            <div class="row">
+                            <div class="col-md-6 wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+<div style="display: inline-block; text-align: left;">
+<p>Stowarzyszenie "Rowerowa Gdynia"<br>
+ul. Legionów 102D/100, 81-472 Gdynia<br>
+81-472 Gdynia</p>
+
+<p><strong>e-mail:</strong> kontakt@rowerowagdynia.pl</p>
+
+<p>Twitter: @RowerowaGdynia</p>
+
+<p>KRS: 0000367409<br>
+REGON: 221109007<br>
+NIP: 5862261445</p>
+
+<p>Konto bankowe:<br>
+Nest Bank S.A.<br>
+58 1870 1045 2078 1073 7432 0001</p><p>
+</p></div>
+                            </div>
+														
+                            <div class="col-md-6 wow bounceInRight" style="visibility: hidden; animation-name: none;">
+														
+<div style="display: inline-block; text-align: left;">
+<p><strong>Prezes Zarządu</strong><br>
+Maciej Karpowicz</p>
+<p><strong>Wiceprezes Zarządu</strong><br>
+Łukasz Bosowski</p>
+<p><strong>Wiceprezes Zarządu</strong><br>
+Wojciech Kukla</p>
+<p><strong>Komisja rewizyjna</strong><br>
+Paweł Wroniszewski, Marta Konik</p>
+</div>
+
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="container">
+
+                        <div class="row">
+                            <h2 class="section-title" style="inline">Odwiedź nas na facebooku</h2>
+														<p class="under-heading">Tam rozmawiamy na różne tematy.</p>
+
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frowerowagdynia&amp;tabs=timeline&amp;width=400&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId=192158864199520" width="400" height="500" style="border:none;overflow:hidden; margin-top:50px;" scrolling="no" frameborder="0" allowtransparency="true" tc-textcontent="true" data-tc-id="w-0.46199254526997546"></iframe>
+
+
+                            <div class="col-md-12">
+                                <div class="social-icons wow slideInDown" style="visibility: hidden; animation-name: none;">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://www.facebook.com/rowerowagdynia"><i class="fa fa-facebook fa-3x"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+        </div></div></div></section>
+
+        <section id="Polecamy">
+            <div class="contact-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 wow bounceInDown" style="visibility: hidden; animation-name: none;">
+                            <h2 class="section-title">Polecamy</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-wrapper">
+                    <div class="container">
+                        <form role="form">
+                            <div class="row">
+	                            <div class="col-md-6 wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+					<div style="display: inline-block; text-align: center;">
+						<p class="lead under-heading text-center">Zgłoś problem</p>
+						<div style="width:400px;">
+							<iframe width="400" height="400" src="https://pl.seeclickfix.com/issues/iframe?zoom=10&amp;lat=54.3692379698174&amp;lng=18.7972642383108&amp;summary_append=Problemy+na+trasach+rowerowych+w+Gdyni&amp;above_map=issue_report&amp;right_map=issues_list&amp;search=rower+roweru+rowerowi+rowerem+rowerze+rowery+rower%C3%B3w+rowerom+rowerami+rowerach+rowerowy+rowerowa+rowerowych+rowerowe+rowerowym+rowerowymi&amp;watcher_token=b7618760fdc324805246a50bc1bbd4be375f5fe4&amp;num_results=20" tc-textcontent="true" data-tc-id="w-0.15432783262106975"></iframe>
+							<p style="text-align: left;"><br>Jeśli zauważyłeś jakiś problem 
+(za wysoki krawężnik, dziura, złe oznakowanie) na trasach rowerowych 
+Gdyni, zgłoś go korzystając z <a href="https://pl.seeclickfix.com/gdynia_poland/issues/map">naszego serwisu</a> ("Zgłoś sprawę"). Wszystkie "rowerowe" zgłoszenia trafiają do nas oraz do urzędnika rowerowego w gdyńskim ZDiZ.</p>
+						</div>
+					</div>
+                	            </div>
+													
+                	            <div class="col-md-6 wow bounceInRight" style="visibility: hidden; animation-name: none;">
+					<div style="display: inline-block; text-align: center;">
+						
+						<p class="lead under-heading text-center">Szlaki w Gdyni</p>
+						<a href="http://gdynia.mapaszlakow.eu/" target="_new"><img src="raw_pliki/szlakiGdynia.png" style="max-width:400px;"></a>
+					</div>
+                        	    </div>
+	                     </div>
+			</form>
+                    </div>
+        </div></div></section>
+
+
+        <section id="footer">
+            <div class="footer-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="footer-text">Copyright <span class="copyright"> ©</span>2017</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="footer-text">Biking Theme</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="footer-text">Brought to you by <span class="usama"><a href="https://www.facebook.com/UsamaElsayed90">Usama Elsayed</a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+       
+       
+        <script src="raw_pliki/jquery.js"></script>
+        <script src="raw_pliki/bootstrap.min.js"></script>
+        <script src="raw_pliki/plugins.js"></script>
+        <script src="raw_pliki/jquery.counterup.min.js"></script>
+        <script src="raw_pliki/jquery.waypoints.min.js"></script>
+        <script src="raw_pliki/jquery.nicescroll.min.js"></script>
+        <script src="raw_pliki/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    
+<div id="ascrail2000" class="nicescroll-rails" style="width: 7px; z-index: auto; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 202px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails" style="height: 7px; z-index: auto; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0;"><div style="position: relative; top: 0px; height: 5px; width: 1767px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div></body></html>
