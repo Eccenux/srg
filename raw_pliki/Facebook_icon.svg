@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   width="256"
+   height="256"
+   version="1.0"
+   id="svg3"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <script />
+  <svg:g
+     transform="translate(-373 -318)"
+     id="g3">
+    <svg:rect
+       width="236"
+       height="236"
+       x="-619.64203"
+       y="328.34399"
+       fill="#0037c1"
+       fill-rule="evenodd"
+       rx="118"
+       ry="118"
+       transform="scale(-1,1)"
+       id="rect2"
+       style="fill:#0758dc;fill-opacity:1" />
+  </svg:g>
+  <svg:g
+     transform="translate(-373 -300)"
+     id="g3">
+    <svg:path
+       fill="#ffffff"
+       d="m 519.7025,562.96251 c -11.44962,2.62096 -24.14971,2.60205 -38.0734,0 l 0.10309,-91.52387 h -19.02142 v -32.01695 h 19.02142 v -19.22286 c 0,-20.3076 6.49267,-34.215 23.72396,-39.3986 4.93139,-1.48348 14.81667,-2.23079 21.53226,-2.25245 9.15602,-0.0295 20.83928,3.34322 21.40504,3.79043 v 28.23015 H 532.5135 c -11.87895,0 -12.66476,4.47439 -12.66476,12.82491 l -0.0432,16.02479 h 28.7677 l -3.36625,32.01695 h -25.40144 z"
+       id="path3" />
+  </svg:g>
+</svg:svg>
