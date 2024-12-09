@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html style="overflow: hidden;" class=" umdmkvt idc0_343"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript">
+    (function() {
+      var container = document.querySelector('#_tcx-et21ticm0so');
+      if (!container) {
+        return;
+      }
+
+      function addToContainer(url, text) {
+        const wrapper = document.createElement('div');
+        wrapper.setAttribute('data-tcx-url', url);
+        wrapper.innerText = text;
+        container.appendChild(wrapper);
+      }
+
+      const fetch = window.fetch
+      window.fetch = function() {
+        return Promise.resolve(fetch.apply(window, arguments))
+            .then(async response => {
+              if (response.ok) {
+                try {
+                  const clone = response.clone();
+                  const json = await clone.json();
+                  addToContainer(clone.url, JSON.stringify(json));
+                } catch (err) {}
+              }
+              return response;
+            });
+      };
+
+      var XHR = XMLHttpRequest.prototype;
+      var send = XHR.send;
+      var open = XHR.open;
+      XHR.open = function(method, url) {
+        this.url = url;
+        return open.apply(this, arguments);
+      };
+      XHR.send = function() {
+        this.addEventListener('load', function() {
+          try {
+            const response = this.response;
+            if (response && response.length) {
+              const firstChar = response[0];
+              if (firstChar === '[' || firstChar === '{') {
+                addToContainer(this.url, response);
+              }
+            }
+          } catch (err) {
+            // No-op.
+          }
+        });
+        return send.apply(this, arguments);
+      };
+    })();
+  </script>
+        <title>
+            Stowarzyszenie Rowerowa Gdynia im. Tomasza Milewskiego
+        </title>
+        <meta charset="utf-8">
+        <!--CSS-->
+        
+        <link rel="stylesheet" type="text/css" href="raw_pliki/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="raw_pliki/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="raw_pliki/style.css">
+        <link rel="stylesheet" type="text/css" href="raw_pliki/animate.css">
+        <!--Google Fonts-->
+        <link href="raw_pliki/css.css" rel="stylesheet">
+        <link href="raw_pliki/css_002.css" rel="stylesheet">
+    </head>
+    <body style="overflow: auto;">
+       <header class="header" id="HOME">
+                 <!-- Navigation -->
+            
+            <nav class="navbar navbar-default navbar-fixed-top" style="margin-top: -100px; opacity: 0; background-color: rgba(59, 59, 59, 0); border-color: rgb(68, 68, 68);">
+              
+                
+                <div class="container">
+                  
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">
+                          <!-- small size logo -->
+                          <img src="raw_pliki/srg_logo_male.png" alt="logo" style="opacity: 1; height: 35px; padding-top: 0px;">
+
+                        </a>
+                    </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#HOME" class="nav-item" style="padding-top: 15px;">START</a></li>
+                        <li><a href="#onas" class="nav-item" style="padding-top: 15px;">O NAS</a></li>
+                        <li><a href="#historia" class="nav-item" style="padding-top: 15px;">HISTORIA</a></li>
+                        <li><a href="#dolacz" class="nav-item" style="padding-top: 15px;">DOŁĄCZ</a></li>
+                        <li><a href="#kontakt" class="nav-item" style="padding-top: 15px;">KONTAKT</a></li>
+                        <li><a href="#Polecamy" class="nav-item" style="padding-top: 15px;">POLECAMY</a></li>
+                  </ul>
+                 
+                 
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+</nav>
+       
+       </header>
+       <!--Section About-->
+       <section id="pojedyncza">
+          
+           <div class="section-pojedyncza">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 wow bounceIn animated" style="visibility: visible; animation-name: bounceIn;">
+                          <h2 class="section-title">Statut Stowarzyszenia Rowerowa Gdynia</h2>
+                      </div>
+                  </div>
+              </div>
+               <div class="section-wrapper">
+                   <div class="container">
+									 
+									 
+									 
+									 
+
+									 
+<p>
+	<strong>Rozdział I. Postanowienia ogólne</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 1</strong></p>
+
+<ol>
+	<li>
+		Stowarzyszenie „Rowerowa Gdynia”, zwane dalej Stowarzyszeniem, dzia­ła
+ na podstawie Ustawy z dnia 7 kwietnia 1989 r. Prawo o stowarzyszeniach 
+oraz postanowień niniejszego Statutu.</li>
+	<li>
+		Stowarzyszenie jest dobrowolnym, samorządnym i trwałym zrzeszeniem jego członków o celach niezarobkowych.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 2</strong></p>
+
+<p>
+	Siedzibą Stowarzyszenia jest miasto Gdynia.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 3</strong></p>
+
+<ol>
+	<li>
+		Terenem działania Stowarzyszenia jest obszar Rzeczpospolitej Polskiej 
+ze szcze­gólnym uwzględnieniem Gdyni i województwa pomorskiego.</li>
+	<li>
+		Dla realizacji celów statutowych stowarzyszenie może prowadzić 
+działania poza granicami kraju na terenie innych państw, z poszanowaniem
+ tamtejszego prawa.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 4</strong></p>
+
+<p>
+	Stowarzyszenie posiada osobowość prawną. Powołane jest na czas nieokreślony.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 5</strong></p>
+
+<p>
+	Stowarzyszenie współpracuje z krajowymi, zagranicznymi i 
+międzynarodowymi organizacjami pozarządowymi i innymi instytucjami. Może
+ być członkiem krajowych i zagranicznych organizacji o podobnych 
+założeniach programowych.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 6</strong></p>
+
+<p>
+	Stowarzyszenie opiera swoją działalność przede wszystkim na pracy 
+społecznej członków. Do prowa­dzenia swoich działań może zatrudniać 
+pracowników oraz powoływać biura.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 7</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	Stowarzyszenie może używać odznak, logo i pieczęci na zasadach określonych w odrębnych przepisach.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Rozdział II. Cele i sposoby ich realizacji</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 8</strong></p>
+
+<p>
+	Do podstawowych celów Stowarzyszenia należy:</p>
+
+<ol>
+	<li>
+		Działania na rzecz rozwoju infrastruktury rowerowej, propagowania 
+alternatywnego środka transportu jakim jest rower, oraz współdziałanie 
+ze związkami, stowarzyszeniami i organizacjami posiadającymi podobne do 
+Stowarzyszenia cele.</li>
+	<li>
+		Działania na rzecz poprawy warunków przemieszczania się rowerem po 
+mieście i jego okolicach w szczególności poprzez rozwój infrastruktury 
+rowerowej.</li>
+	<li>
+		Podejmowanie działań służących poprawie bezpieczeństwa rowerzystów 
+i&nbsp;niechronionych uczestników ruchu drogowego oraz popularyzowanie 
+zasad bezpieczeństwa ruchu drogowego.</li>
+	<li>
+		Działania w zakresie wspierania inicjatyw społecznych na rzecz budowy dróg rowerowych.</li>
+	<li>
+		Współpraca z organami administracji publicznej w szczególności 
+samorządu terytorialnego oraz innymi podmiotami zajmującymi się 
+zarządzaniem, projektowaniem i budową infrastruktury rowerowej.</li>
+	<li>
+		Prowadzenie, rozwijanie i propagowanie turystyki rowerowej w kraju i za granicą.</li>
+	<li>
+		Kształtowanie polityki komunikacyjnej minimalizującej szkodliwy wpływ na środowisko.</li>
+	<li>
+		Poradnictwo i pomoc w organizacji i przeprowadzaniu imprez o 
+charakterze sportowym, rekreacyjnym, edukacyjnym, ekologicznym i 
+turystycznym.</li>
+	<li>
+		Krajoznawstwo, rekreacja oraz wypoczynek dzieci, młodzieży i dorosłych.</li>
+	<li>
+		Wspieranie i upowszechnianie kultury fizycznej i sportu.</li>
+	<li>
+		Działalność w zakresie ochrony środowiska.</li>
+	<li>
+		Działalność na rzecz ochrony i promocji zdrowia.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 9</strong></p>
+
+<p>
+	Zadania statutowe Stowarzyszenie realizuje w szczególności poprzez:</p>
+
+<p>
+	1)Działanie na rzecz budowy infrastruktury przyjaznej rowerzystom.</p>
+
+<p>
+	2)Działanie na rzecz eliminowania barier architektonicznych 
+nieprzyjaznych rowerzystom oraz osobom niepełnosprawnym, osobom 
+starszym, rodzicom z&nbsp;wózkami dziecięcymi.</p>
+
+<p>
+	3)Rozpowszechnianie wiedzy o zasadach bezpiecznego uczestnictwa rowerzystów w ruchu drogowym.</p>
+
+<p>
+	4)Prowadzenie badań w zakresie poprawy warunków przemieszczania się 
+rowerem po mieście i jego okolicach, w tym możliwego przebiegu tras 
+rowerowych.</p>
+
+<p>
+	5)Współpraca z&nbsp;organami administracji publicznej właściwymi do projektowania i&nbsp;budowy infrastruktury rowerowej.</p>
+
+<p>
+	6)Występowanie i współdziałanie z &nbsp;organami administracji 
+samorządowej i rządowej w sprawach dotyczących statutowych celów 
+Stowarzyszenia.</p>
+
+<p>
+	7)Monitoring działań organów administracji publicznej w&nbsp;zakresie rozwoju rowerowej infrastruktury.</p>
+
+<p>
+	8)Monitoring istniejącego systemu dróg rowerowych i&nbsp;infrastruktury
+ rowerowej oraz przedstawianie jak najdogodniejszych rozwiązań służącym 
+rowerzystom.</p>
+
+<p>
+	9)Działania na rzecz ograniczania i&nbsp;spowalniania ruchu 
+samochodowego w&nbsp;mieście celem tworzenia odpowiednich warunków dla 
+niechronionych uczestników ruchu drogowego.</p>
+
+<p>
+	10)Propagowanie założeń zrównoważonego transportu: rower, komunikacja miejska, kolej.</p>
+
+<p>
+	11)Wyrażanie opinii w sprawach dotyczących polityki rowerowej.</p>
+
+<p>
+	12)Współpracę z organizacjami, instytucjami, grupami społecznymi i 
+osobami fizycznymi,&nbsp; posiadającymi podobne cele działania.</p>
+
+<p>
+	13)Organizowanie akcji oraz imprez propagujących rower oraz inne ekologiczne środki transportu.</p>
+
+<p>
+	14)Organizowanie imprez o charakterze sportowym, rekreacyjnym i turystycznym.</p>
+
+<p>
+	15)Organizowanie szkoleń, wykładów, warsztatów, sympozjów, seminariów, 
+odczytów, konferencji, zjazdów, narad, konkursów, wystaw związanych z 
+promocją i rozwojem ruchu rowerowego.</p>
+
+<p>
+	16)Współpracę z mediami.</p>
+
+<p>
+	17)Działania na rzecz rozwoju i&nbsp;integracji lokalnego środowiska rowerowego.</p>
+
+<p>
+	18)Organizowanie lobbingu na rzecz rozwoju ruchu rowerowego.</p>
+
+<p>
+	19)Propagowanie aktywności fizycznej i innych form zdrowego stylu życia.</p>
+
+<p>
+	20)Prowadzenie działalności wydawniczej i&nbsp;publicystycznej 
+związanych z celami Stowarzyszenia (wydawnictwa papierowe i 
+internetowe).</p>
+
+<p>
+	21)Prowadzenie strony internetowej dotyczącej działalności Stowarzyszenia.</p>
+
+<p>
+	22)Gromadzenie środków finansowych na realizację celów statutowych Stowarzyszenia,</p>
+
+<p>
+	23)Inne działania, zgodne z celami Stowarzyszenia, inspirowane przez jego członków.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Rozdział III. Członkowie Stowarzyszenia</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 10</strong></p>
+
+<ol>
+	<li>
+		Członkami Stowarzyszenia mogą być osoby fizyczne i prawne. Osoba 
+praw­na może być jedynie członkiem wspierającym Stowarzyszenie.</li>
+	<li>
+		Stowarzyszenie posiada członków:</li>
+</ol>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		zwyczajnych,</li>
+	<li>
+		wspierających,</li>
+	<li>
+		honorowych.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 11</strong></p>
+
+<ol>
+	<li>
+		<strong>Członkiem zwyczajnym</strong> Stowarzyszenia może być każda 
+osoba fizyczna niezależnie od obywatelstwa, miejsca zamieszkania i 
+wieku, któ­ra złoży pisemną deklarację.</li>
+	<li>
+		Przyjęcia nowych członków zwyczajnych dokonuje Zarząd na podstawie 
+rekomendacji członka Stowarzyszenia uchwałą podjętą nie później niż w 
+ciągu dwóch miesięcy od daty złożenia deklaracji.</li>
+	<li>
+		W przypadku osoby w wieku poniżej 18 roku życia do uzyskania 
+członkostwa wymagana jest zgoda przedstawiciela ustawowego. Członek w 
+wieku poniżej 16 roku życia nie ma czynnego i biernego prawa wyborczego.</li>
+	<li>
+		<strong>Członkiem wspierającym</strong> Stowarzyszenia może zostać 
+osoba fizyczna i praw­na deklarująca pomoc finansową, rzeczową lub 
+merytoryczną w realizacji ce­lów Stowarzyszenia.</li>
+	<li>
+		Członkiem wspierającym staje się po złożeniu pisemnej deklaracji, w 
+której określi rodzaj i sposób świadczonej pomocy, na podsta­wie uchwały
+ Zarządu podjętej nie później niż w ciągu dwóch miesięcy od daty 
+złożenia deklaracji.</li>
+	<li>
+		<strong>&nbsp;Członkiem honorowym</strong> Stowarzyszenia może być osoba fizyczna, która wnio­sła wybitny wkład w działalność i rozwój Stowarzyszenia.</li>
+	<li>
+		&nbsp;Członkiem honorowym staje się po przyjęciu uchwały przez Walne 
+Zebranie Członków na wniosek Zarządu albo co najmniej 6 członków 
+Stowarzyszenia.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 12</strong></p>
+
+<p>
+	Członkowie zwyczajni mają prawo:</p>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		biernego i czynnego uczestniczenia w wyborach do władz Stowarzyszenia,</li>
+	<li>
+		uczestnictwa w działaniach Stowarzyszenia,</li>
+	<li>
+		korzystania z dorobku i wszelkich form działalności Stowarzyszenia,</li>
+	<li>
+		udziału w zebraniach, wykładach oraz imprezach organizowanych przez Sto­warzyszenie,</li>
+	<li>
+		zgłaszania wniosków co do działalności Stowarzyszenia.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 13</strong></p>
+
+<p>
+	Członkowie zwyczajni mają obowiązek:</p>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		brania udziału w działalności Stowarzyszenia i w realizacji jego celów,</li>
+	<li>
+		uczestniczenia w Walnych Zebraniach Członków,</li>
+	<li>
+		przestrzegania statutu i uchwał władz Stowarzyszenia,</li>
+	<li>
+		regularnego opłacania składek.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 14</strong></p>
+
+<ol>
+	<li>
+		Członkowie wspierający i honorowi nie posiadają biernego oraz czynnego
+ prawa wyborczego, mogą jednak brać udział z głosem doradczym w 
+statuto­wych władzach Stowarzyszenia, poza tym posiadają takie prawa jak
+ członko­wie zwyczajni.</li>
+	<li>
+		Członek wspierający ma obowiązek wywiązywania się z zadeklarowanych 
+świadczeń, przestrzegania statutu oraz uchwał władz Stowarzyszenia.</li>
+	<li>
+		Członkowie honorowi są zwolnieni ze składek członkowskich.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 15</strong></p>
+
+<ol>
+	<li>
+		Członkostwo w Stowarzyszeniu ustaje na skutek:</li>
+</ol>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		dobrowolnej, pisemnej rezygnacji z przynależności do Stowarzyszenia złożo­nej na ręce Zarządu,</li>
+	<li>
+		wykluczenia przez Zarząd:</li>
+</ol>
+
+<ul>
+	<li>
+		z powodu nieusprawiedliwionego zalegania z opłatą składek 
+członkowskich lub innych zobowiązań, przez okres przekraczający 9 
+(dziewięć) miesięcy,</li>
+	<li>
+		z powodu naruszenia Statutu, uchwał i decyzji władz Stowarzyszenia,</li>
+	<li>
+		z powodu działania na szkodę Stowarzyszenia lub rażącego naruszenia zasad współżycia społecznego,</li>
+</ul>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		utraty praw obywatelskich na mocy prawomocnego wyroku sądu,</li>
+	<li>
+		śmierci członka lub utraty osobowości prawnej przez członka wspierającego.</li>
+</ol>
+
+<ol>
+	<li>
+		Od uchwały Zarządu w sprawie pozbawienia członkostwa w Stowarzyszeniu 
+przysługuje odwołanie do Walnego Zebrania Członków w terminie 14 dni od 
+daty doręczenia stosownej uchwały. Odwołanie jest rozpatrywane na 
+najbliższym Wal­nym Zebraniu Członków. Uchwała Walnego Zebrania jest 
+ostateczna.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Rozdział IV. Władze Stowarzyszenia</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 16</strong></p>
+
+<p>
+	Władzami Stowarzyszenia są:</p>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		Walne Zebranie Członków,</li>
+	<li>
+		Zarząd,</li>
+	<li>
+		Komisja Rewizyjna.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 17</strong></p>
+
+<ol>
+	<li>
+		Władze Stowarzyszenia wybierane są przez Walne Zebranie Członków w 
+gło­sowaniu jawnym zwykłą większością głosów. Walne Zebranie Członków 
+może zdecydować o przeprowadzeniu głosowania tajnego.</li>
+	<li>
+		W razie, gdy skład władz Stowarzyszenia ulegnie zmniejszeniu w czasie 
+trwa­nia kadencji uzupełnienie ich składu może nastąpić w drodze 
+kooptacji, której dokonują pozostali członkowie organu, który uległ 
+zmniejszeniu. W trybie tym można jednorazowo powołać nie więcej niż 
+połowę składu organu.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 18</strong></p>
+
+<ol>
+	<li>
+		Władze Stowarzyszenia podejmują decyzje w formie uchwał na 
+posiedzeniach, w trybie pisemnym lub przy wykorzystaniu środków 
+porozumiewania się na odległość.</li>
+	<li>
+		Uchwały władz Stowarzyszenia zapadają w głosowaniu jawnym zwy­kłą 
+większością głosów, jeżeli w głosowaniu udział wzięła co najmniej połowa
+ członków upraw­nionych do głosowania, chyba że dalsze postanowienia 
+Statutu stano­wią inaczej.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 19</strong></p>
+
+<p>
+	Kadencja wszystkich wybieralnych władz Stowarzyszenia trwa 2 lata.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Walne Zebranie Członków</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 20</strong></p>
+
+<ol>
+	<li>
+		Najwyższą władzą Stowarzyszenia jest Walne Zebranie Członków.</li>
+	<li>
+		Walne Zebranie może być zwyczajne i nadzwyczajne.</li>
+	<li>
+		Zwyczajne Walne Zebrania zwołuje się raz w roku.</li>
+	<li>
+		O miejscu, terminie, porządku obrad Walnego Zebrania Członków i 
+sposobie głosowania Zarząd powiadamia co najmniej 14 dni przed terminem 
+zebrania, za pośrednictwem poczty elektronicznej tych członków, którzy 
+podali Zarządowi swój adres e-mail oraz wyrazili zgodę otrzymywania 
+zawiadomień o Walnym Zebraniu Członków za pośrednictwem poczty 
+elektronicznej oraz listami poleconymi pozostałych członków.</li>
+	<li>
+		Nadzwyczajne Walne Zebranie zwołuje Zarząd:</li>
+</ol>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		z własnej inicjatywy,</li>
+	<li>
+		na żądanie członków Komisji Rewizyjnej,</li>
+	<li>
+		na pisemny wniosek co najmniej 1/3 ogólnej liczby członków zwyczajnych Stowarzyszenia.</li>
+</ol>
+
+<ol>
+	<li>
+		Nadzwyczajne Walne Zebranie powinno zostać zwołane przed upływem 21 
+dni od daty zgłoszenia wniosku lub żądania i może obradować wyłącznie 
+nad sprawami, dla któ­rych zostało zwołane.</li>
+	<li>
+		Walne Zebranie obraduje według uchwalonego przez siebie regulaminu obrad.</li>
+	<li>
+		Zawiadomienie o Walnym Zebraniu Członków może wskazywać dwa terminy 
+Walnego Zebrania, przy czym drugi termin może być wyznaczony na ten sam 
+dzień co pierwszy. W drugim terminie Walnego Zebrania uchwały mogą 
+zapadać jeżeli w głosowaniu wzięła udział co najmniej 1/4 (jedna 
+czwarta) członków uprawnionych do głosowania.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 21</strong></p>
+
+<p>
+	Do kompetencji Walnego Zebrania Członków należy:</p>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		określenie głównych kierunków działania i rozwoju Stowarzyszenia,</li>
+	<li>
+		uchwalanie zmian Statutu,</li>
+	<li>
+		uchwalanie regulaminu obrad Walnego Zebrania Członków,</li>
+	<li>
+		wybór i odwoływanie wszystkich władz Stowarzyszenia,</li>
+	<li>
+		powierzanie funkcji Prezesa oraz Wiceprezesa członkom Zarządu,</li>
+	<li>
+		udzielanie Zarządowi absolutorium,</li>
+	<li>
+		rozpatrywanie i zatwierdzanie sprawozdań władz Stowarzyszenia,</li>
+	<li>
+		rozpatrywanie odwołań od uchwał Zarządu,</li>
+	<li>
+		podejmowanie uchwały o rozwiązaniu Stowarzyszenia i przeznaczeniu jego majątku,</li>
+	<li>
+		podejmowanie uchwał w sprawie przyjęcia członka honorowego,</li>
+	<li>
+		ustalanie wysokości składki członkowskiej oraz terminu jej zapłaty,</li>
+	<li>
+		podejmowanie uchwał we wszystkich sprawach niezastrzeżonych do kom­petencji innych władz Stowarzyszenia.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Zarząd </strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 22</strong></p>
+
+<ol>
+	<li>
+		Zarząd jest powołany do kierowania całą działalnością Stowarzyszenia 
+zgodnie z uchwałami Walnego Zebrania Członków oraz reprezentuje 
+Stowarzyszenie na zewnątrz.</li>
+	<li>
+		Zarząd składa się z 2 do 4 osób, w tym prezesa oraz wiceprezesa. 
+Powierzenie funkcji prezesa oraz wiceprezesa członkom Zarządu dokonuje 
+Walne Zebranie Członków.</li>
+	<li>
+		Posiedzenia Zarządu odbywają się w miarę potrzeb, nie rzadziej jednak niż raz na pół roku. Posiedzenia Zarządu zwołuje prezes.</li>
+	<li>
+		Przy podejmowaniu uchwał w razie równej liczby głosów głos prezesa jest rozstrzygający.</li>
+	<li>
+		Członkowie Komisji Rewizyjnej mogą uczestniczyć w posiedzeniach Zarządu z głosem doradczym.</li>
+	<li>
+		Do udziału w pracach i posiedzeniach Zarządu mogą zostać zaproszone 
+osoby spoza Zarządu, w tym nie będące członkami Stowarzyszenia, z głosem
+ doradczym.</li>
+	<li>
+		Członkiem Zarządu nie może być osoba skazana prawomocnym wyrokiem za 
+przestępstwo umyślne ścigane z oskarżenia publicznego lub przestępstwo 
+skarbowe.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 23</strong></p>
+
+<p>
+	Do kompetencji Zarządu należy:</p>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		realizacja celów Stowarzyszenia,</li>
+	<li>
+		kierowanie bieżącą pracą Stowarzyszenia,</li>
+	<li>
+		realizowanie uchwał Walnego Zebrania Członków,</li>
+	<li>
+		zarządzanie majątkiem Stowarzyszenia,</li>
+	<li>
+		planowanie i prowadzenie gospodarki finansowej,</li>
+	<li>
+		reprezentowanie Stowarzyszenia na zewnątrz i działanie w jego imieniu,</li>
+	<li>
+		przyjmowanie i wykluczanie członków Stowarzyszenia,</li>
+	<li>
+		zwoływanie Walnego Zebrania Członków.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Komisja Rewizyjna</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 24</strong></p>
+
+<ol>
+	<li>
+		Komisja Rewizyjna powołana jest do sprawowania kontroli nad działalnością Stowarzyszenia.</li>
+	<li>
+		Komisja Rewizyjna składa się z 2 do 4 osób, w tym przewodniczącego który kieruje jej pracami.</li>
+	<li>
+		Wyboru przewodniczącego dokonuje Komisja na pierwszym posiedzeniu, 
+przy czym w trakcie trwania kadencji członków Komisji może nastąpić 
+zmiana przewodniczącego Komisji.</li>
+	<li>
+		Posiedzenia Komisji Rewizyjnej odbywają się w miarę potrzeb. Posiedzenia Komisji zwołuje przewodniczący.</li>
+	<li>
+		Komisja Rewizyjna dokonuje kontroli pod względem legalności, 
+celowości, rzetelności działań Stowarzyszenia. Komisja w celu 
+wykonywania swych działań kontrolnych jest uprawniona do żądania od 
+Zarządu przedstawienia wszelkich dokumentów i informacji dotyczących 
+działalności Stowarzyszenia.</li>
+	<li>
+		Członkowie Komisji Rewizyjnej:&nbsp;</li>
+</ol>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		nie mogą być członkami Zarządu ani pozostawać z członkami Zarządu w 
+związku małżeńskim, we wspólnym pożyciu, w stosunku pokrewieństwa, 
+powinowactwa lub podległości służbowej,&nbsp;</li>
+	<li>
+		nie mogą być skazani prawomocnym wyrokiem za przestępstwo umyślne 
+ścigane z oskarżenia publicznego lub przestępstwo skarbowe,&nbsp;</li>
+	<li>
+		Członkowie Komisji Rewizyjnej mogą otrzymywać z tytułu pełnienia 
+funkcji zwrot uzasadnionych kosztów lub wynagrodzenie w wysokości nie 
+wyższej niż przeciętne miesięczne wynagrodzenie w sektorze 
+przedsiębiorstw ogłoszone przez Prezesa Głównego Urzędu Statystycznego 
+za rok poprzedni.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 25</strong></p>
+
+<p>
+	Do kompetencji Komisji Rewizyjnej należy:</p>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		kontrola całokształtu działalności Stowarzyszenia,</li>
+	<li>
+		ocena pracy Zarządu, w tym corocznych sprawozdań i bilansu,,</li>
+	<li>
+		składanie sprawozdań na Walnym Zebraniu Członków wraz z oceną działalno­ści Stowarzyszenia i Zarządu Stowarzyszenia,</li>
+	<li>
+		wnioskowanie do Walnego Zebrania Członków o udzielanie absolutorium Za­rządowi,</li>
+	<li>
+		wnioskowanie o odwołanie Zarządu lub poszczególnych członków Zarządu,</li>
+	<li>
+		wnioskowanie o zwołanie Nadzwyczajnego Walnego Zebrania Członków.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Rozdział V. Sposób reprezentacji</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 26</strong></p>
+
+<ol>
+	<li>
+		Do reprezentowania Stowarzyszenia, z zastrzeżeniem ust. 2 poniżej, 
+uprawnionych jest dwóch członków Zarządu działający łącznie.</li>
+	<li>
+		Do reprezentowania Stowarzyszenia w postępowaniach administracyjnych 
+lub sądowych oraz w kontaktach z organami administracji publicznej, 
+uprawniony jest jednoosobowo każdy członek Zarządu.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Rozdział VI. &nbsp;Majątek i gospodarka finansowa</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 27</strong></p>
+
+<ol>
+	<li>
+		Majątek Stowarzyszenia stanowią nieruchomości, ruchomości i inne prawa majątkowe.</li>
+	<li>
+		Źródłami powstania majątku Stowarzyszenia są:</li>
+</ol>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		składki członkowskie,</li>
+	<li>
+		darowizny, zapisy i spadki, środki pochodzące z ofiarności publicznej, ze spon­soringu,</li>
+	<li>
+		dotacje, subwencje, udziały, lokaty</li>
+</ol>
+
+<ol>
+	<li>
+		Wszelkie środki pieniężne mogą być przechowywane wyłącznie na koncie Sto­warzyszenia.</li>
+	<li>
+		Stowarzyszenie prowadzi gospodarkę finansową zgodnie z obowiązującymi przepisami.</li>
+	<li>
+		Decyzje w sprawie nabywania, zbywania i obciążania majątku Stowarzysze­nia podejmuje Zarząd.</li>
+	<li>
+		Majątek Stowarzyszenia przeznaczony jest wyłącznie do realizacji celów
+ statutowych Stowarzyszenia oraz pokrycia niezbędnych kosztów 
+prowadzenia działalności.</li>
+	<li>
+		W Stowarzyszeniu zabrania się:</li>
+</ol>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		udzielania pożyczek lub zabezpieczania zobowiązań majątkiem 
+Stowarzyszenia w stosunku do jej członków, członków organów lub 
+pracowników oraz osób, z którymi członkowie, członkowie organów oraz 
+pracownicy organizacji pozostają w związku małżeńskim, we wspólnym 
+pożyciu albo w stosunku pokrewieństwa lub powinowactwa w linii prostej, 
+pokrewieństwa lub powinowactwa w linii bocznej do drugiego stopnia albo 
+są związani z tytułu przysposobienia, opieki lub kurateli, zwanych dalej
+ „osobami bliskimi”,</li>
+	<li>
+		przekazywania majątku Stowarzyszenia na rzecz ich członków, członków 
+organów lub pracowników oraz ich osób bliskich, na zasadach innych niż w
+ stosunku do osób trzecich, w szczególności, jeżeli przekazanie to 
+następuje bezpłatnie lub na preferencyjnych warunkach,</li>
+	<li>
+		wykorzystywania majątku Stowarzyszenia na rzecz członków, członków 
+organów lub pracowników oraz ich osób bliskich na zasadach innych niż w 
+stosunku do osób trzecich, chyba że to wykorzystanie bezpośrednio wynika
+ z celu statutowego,</li>
+	<li>
+		zakupu towarów lub usług od podmiotów, w których uczestniczą 
+członkowie organizacji, członkowie jej organów lub pracownicy oraz ich 
+osób bliskich, na zasadach innych niż w stosunku do osób trzecich lub po
+ cenach wyższych niż rynkowe.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Rozdział VII.&nbsp; Komunikacja elektroniczna</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 28</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<ol>
+	<li>
+		W Stowarzyszeniu dopuszcza się korzystanie z elektronicznych środków 
+komunikacji, w tym zwłaszcza Internetu, w szczególności w zakresie:</li>
+</ol>
+
+<ol style="list-style-type:lower-alpha">
+	<li>
+		prowadzenia strony internetowej Stowarzyszenia oraz świadczenia za jej udziałem nieodpłatnych usług elektronicznych,</li>
+	<li>
+		konsultacji działań Zarządu z członkami Stowarzyszenia,</li>
+	<li>
+		przyjmowania uwag, postulatów i pomysłów członków Stowarzyszenia,</li>
+	<li>
+		składania przez członków (członków organów) Stowarzyszenia wszelkich 
+oświadczeń, w tym oświadczeń woli, a także składania wniosków do organów
+ Stowarzyszenia,</li>
+	<li>
+		pozyskiwania i przyjmowania nowych członków,</li>
+	<li>
+		podejmowania działań na rzecz celów Stowarzyszenia oraz funkcjonowania Stowarzyszenia w cyberprzestrzeni.</li>
+</ol>
+
+<ol>
+	<li>
+		W celu zapewnienia odpowiedniego poziomu bezpieczeństwa komunikacji 
+elektronicznej w funkcjonowaniu Stowarzyszenia Walne Zebranie Członków 
+może opracować regulamin dotyczący korzystania z elektronicznych środków
+ komunikacji w obszarach wskazanych w ust.1 powyżej. Opracowując 
+regulamin Walne Zebranie Członków weźmie pod uwagę aktualny stan rozwoju
+ technologii mediów elektronicznych oraz skalę ich upowszechnienia wśród
+ członków Stowarzyszenia.</li>
+	<li>
+		Zarząd dołoży starań dla upowszechnienia wśród członków Stowarzyszenia
+ znajomości i wykorzystania elektronicznych środków komunikacji.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>Rozdział VIII. Postanowienia końcowe</strong></p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 29</strong></p>
+
+<p>
+	Uchwałę w sprawie zmiany statutu Stowarzyszenia podejmuje Walne 
+Zebranie Członków większością 2/3 głosów, przy czym w głosowaniu wziąć 
+udział powinna co najmniej połowa członków upraw­nionych do głosowania.</p>
+
+<p>
+	&nbsp;</p>
+
+<p>
+	<strong>§ 30</strong></p>
+
+<ol>
+	<li>
+		Uchwałę o rozwiązaniu Stowarzyszenia podejmuje Walne Zebranie Członków
+ kwalifikowaną większością 2/3 (dwóch trzecich) głosów, przy czym w 
+głosowaniu wziąć udział powinna co najmniej połowa członków 
+upraw­nionych do głosowania.</li>
+</ol>
+
+<p>
+	&nbsp;</p>
+									 
+									 
+									 
+									 
+									 
+									 
+									 </div>
+               </div>
+           </div>
+       </section><!--end of section-->
+        <section id="footer">
+            <div class="footer-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="footer-text">Copyright <span class="copyright"> ©</span>2017</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="footer-text">Biking Theme</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="footer-text">Brought to you by <span class="usama"><a href="https://www.facebook.com/UsamaElsayed90">Usama Elsayed</a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+       
+       
+        <script src="raw_pliki/jquery.js"></script>
+        <script src="raw_pliki/bootstrap.min.js"></script>
+        <script src="raw_pliki/plugins.js"></script>
+        <script src="raw_pliki/jquery.counterup.min.js"></script>
+        <script src="raw_pliki/jquery.waypoints.min.js"></script>
+        <script src="raw_pliki/jquery.nicescroll.min.js"></script>
+        <script src="raw_pliki/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    
+<div id="ascrail2000" class="nicescroll-rails" style="width: 7px; z-index: auto; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 152px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails" style="height: 7px; z-index: auto; position: fixed; left: 0px; width: 100%; bottom: 0px; cursor: default; display: none; opacity: 0;"><div style="position: relative; top: 0px; height: 5px; width: 1767px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div></body></html>
