@@ -78,10 +78,6 @@ p {
     margin-top: 130px;
     text-align: center;
 }
-.header-col .form-control {
-    
-    
-}
 .header-col input[type=text] {
     background-color: transparent;
     color: #129CF3;
@@ -277,7 +273,7 @@ p {
     padding-left: 90px;
 }
 .timeline > li > .timeline-badge {
-    font-size: 2rem; !important
+    font-size: 2rem;
     color: #FFF; 
     width: 50px;
     height: 50px;
