@@ -59,7 +59,7 @@ p {
 
 
 .header {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(./header-bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,8 +129,8 @@ p {
     line-height: 45px;
     
 }
-.logoimg {
-    padding-top: 10px;
+.logo {
+    margin-top: 60px;
 }
 .header-overlay {
     background-color: rgba(31, 31, 31, 0.75);
@@ -155,7 +155,7 @@ p {
     text-align: center;
     padding-bottom: 8rem;
     padding-top: 5rem;
-    background-image: url(../images/crossword.png);
+    background-image: url(./crossword.png);
     background-attachment: fixed;
     
 }
@@ -193,16 +193,6 @@ p {
     font-size: 22px;
     
 }
-.performer {
-    background-image: url(../images/testimonial-bg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-}
-
-.performer-overlay {
-    background-color: rgba(31, 31, 31, .70);
-}
 .carousel-inner .item img {
     padding: 5px;
     border: solid 2px #129CF3;
@@ -219,14 +209,6 @@ p {
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
-    
-}
-.performer-caption p {
-    color: #fff;
-    font-size: 26px;
-    line-height: 50px;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-bottom: 40px;
     
 }
 .carousel-indicators {
@@ -335,7 +317,7 @@ p {
 .numbers-section {
     padding-top: 3rem;
     padding-bottom: 5rem;
-    background-image: url(../images/crossword.png);
+    background-image: url(./crossword.png);
     background-attachment: fixed;
     
 }
