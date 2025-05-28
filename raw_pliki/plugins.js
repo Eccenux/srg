@@ -66,11 +66,14 @@ $(document).ready(function(){
         
     });
     
-    
+	// Nux: extra by menu automatycznie się zwijało po kliknięciu w link
+   	$(document).on('click', '.navbar-collapse.in .nav-item', function () {
+		$('.navbar-collapse.in').collapse('hide');
+	}); 
 });
 
 // Loading Screen
-
+/*
 $(window).on('load',function () {
     
     "use strict";

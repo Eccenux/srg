@@ -15,6 +15,17 @@ p {
     text-decoration: underline;
     color: #129CF3;
 }
+
+.header-text {
+	margin-bottom: 320px;
+}
+@media (max-width: 770px) {
+	.header-text {
+		margin-inline: 1em;
+		margin-bottom: 120px;
+	}
+}
+
 /* =========== Navigation ============ */
 
 .navbar-default {
@@ -137,11 +148,19 @@ p {
     margin-bottom: 50px;
 }
 
+.header-btns a {
+	display: block;
+}
+
 .header-btns i {
     color:#129CF3;
-    padding-left: 300px;
     font-size: 70px;
     transition: 0.75s;
+
+	display: block;
+	width: 50px;
+	width: min-content;
+	margin: auto;
 }
 .header-btns i:hover {
     color:#fff;
