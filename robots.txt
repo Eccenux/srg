@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://srg.enux.pl/sitemap.xml
