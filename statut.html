@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html style="overflow: hidden;" class=" umdmkvt idc0_343">
+<html lang="pl" style="overflow: hidden;" class=" umdmkvt idc0_343">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>
-		Stowarzyszenie Rowerowa Gdynia im. Tomasza Milewskiego
+		Statut SRG — Stowarzyszenie Rowerowa Gdynia im. Tomasza Milewskiego
 	</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Statut SRG, czyli cele i zasady Stowarzyszenia Rowerowa Gdynia.">
+
+	<meta property="og:title" content="Statut SRG">
+	<meta property="og:description" content="Cele i zasady Stowarzyszenia Rowerowa Gdynia.">
+	<meta property="og:image" content="https://srg.enux.pl/raw_pliki/srg_logo.png">
+	<meta property="og:url" content="https://srg.enux.pl/">
+
 	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="raw_pliki/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="raw_pliki/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="raw_pliki/style.css">
 	<link rel="stylesheet" type="text/css" href="raw_pliki/animate.css">
 	<!--Google Fonts-->
-	<link href="raw_pliki/css.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 	<body style="overflow: auto;">
 	   <header class="header" id="HOME">
@@ -26,14 +38,14 @@
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
+						<span class="sr-only">Otwieranie/zwijanie menu</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					  </button>
 					  <a class="navbar-brand" href="#">
 						  <!-- small size logo -->
-						  <img src="raw_pliki/srg_logo_male.png" alt="logo" style="opacity: 1; height: 35px; padding-top: 0px;">
+						  <img src="raw_pliki/srg_logo_male.png" alt="SRG" style="opacity: 1; height: 35px; padding-top: 0px;">
 
 						</a>
 					</div>
@@ -968,19 +980,11 @@ upraw­nionych do głosowania.</li>
 	   </section><!--end of section-->
 		<section id="footer">
 			<div class="footer-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<p class="footer-text">Copyright <span class="copyright"> ©</span>2017</p>
-						</div>
-						<div class="col-md-4">
-							<p class="footer-text">Biking Theme</p>
-						</div>
-						<div class="col-md-4">
-							<p class="footer-text">Brought to you by <span class="usama"><a href="https://www.facebook.com/UsamaElsayed90">Usama Elsayed</a></span></p>
-						</div>
-					</div>
-				</div>
+				<p class="footer-text">Copyright <span class="copyright"> ©</span>2017<span id="yearCopy"></span> SRG</p>
+				<script>
+					document.getElementById("yearCopy").textContent = '–' + (new Date()).getFullYear();
+				</script>
+				<p class="footer-text" style="margin-top:2rem"><span style="font-size:85%">Biking Theme by <span class="usama"><a href="https://www.facebook.com/UsamaElsayed90">Usama Elsayed</a></span> </span></p>
 			</div>
 		</section>
 		
