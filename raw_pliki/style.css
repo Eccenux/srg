@@ -13,7 +13,7 @@ p {
 }
 .blue-underline {
     text-decoration: underline;
-    color: #129CF3;
+    color: #1295e7;
 }
 
 .header-text {
@@ -38,7 +38,7 @@ p {
     -webkit-transition: all 1s;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #B5B5B5;
+    color: #FDFDFD;
     font-family: 'Josefin Sans', sans-serif;
     transition: all 1s;
     -moz-transition: all 1s;
@@ -47,10 +47,12 @@ p {
     
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #129CF3;
+	color: #1295e7;
 }
 .navbar-default .navbar-nav > li > a:focus {
-    color: #B5B5B5;
+	color: #fff;
+	outline: 2px white dotted;
+	outline-offset: -3px;
 }
 .navbar-brand {
     padding: 9px 15px;
@@ -65,7 +67,8 @@ p {
 .navbar-default .navbar-nav > .active>a:hover,
 .navbar-default .navbar-nav > .active>a:focus {
     background-color: transparent;
-    color: #129CF3;
+    color: #000066;
+	text-shadow: 0px 0px 5px #fff;
 } 
 
 
@@ -84,20 +87,20 @@ p {
     
 }
 .header-col .header-form {
-    /*border: 2px solid #129CF3;*/
+    /*border: 2px solid #1295e7;*/
     padding: 20px;
     margin-top: 130px;
     text-align: center;
 }
 .header-col input[type=text] {
     background-color: transparent;
-    color: #129CF3;
+    color: #1295e7;
     font-weight: 400;
     border-radius: 0;
-    border: 2px solid #129CF3;
+    border: 2px solid #1295e7;
 }
 .header-col h2 {
-    color: #129CF3;
+    color: #1295e7;
     padding-bottom: 12px;
 }
 .header-col .btn-primary {
@@ -106,7 +109,7 @@ p {
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 3px;
-    border: 2px solid #129CF3;
+    border: 2px solid #1295e7;
     transition: all 0.7s;
     -webkit-transition: all 0.7s;
     -moz-transition: all 0.7s;
@@ -115,14 +118,14 @@ p {
 }
 .header-col .btn-primary:hover {
     width: 100%;
-    background-color: #129CF3;
+    background-color: #1295e7;
     font-weight: 600;
     font-size: 20px;
-    border: 2px solid #129CF3;
+    border: 2px solid #1295e7;
     
 }
 .header-text h1 {
-    color: #129CF3;
+    color: #1295e7;
     font-weight: 300;
     font-size: 48px;
     line-height: 60px;
@@ -153,7 +156,7 @@ p {
 }
 
 .header-btns i {
-    color:#129CF3;
+    color:#1295e7;
     font-size: 70px;
     transition: 0.75s;
 
@@ -175,7 +178,7 @@ p {
     
 }
 .section-title {
-    color:#129CF3;
+    color:#1295e7;
     font-size: 48px;
     font-weight: 900;
     padding-top: 2rem;
@@ -192,11 +195,11 @@ p {
 .fa-user:hover,
 .fa-bicycle:hover,
 .fa-location-arrow:hover {
-    color:#129CF3;
+    color:#1295e7;
     transition: 0.9s;
 }
 .heading {
-    color:#129CF3;
+    color:#1295e7;
     font-weight: 800;
     font-size: 36px;
     padding-bottom: 15px;
@@ -210,14 +213,14 @@ p {
 }
 .carousel-inner .item img {
     padding: 5px;
-    border: solid 2px #129CF3;
+    border: solid 2px #1295e7;
     border-radius: 50%;
     margin: 0 auto;
     width: 110px;
     height: 110px;
 }
 .carousel-inner .item h2 {
-    color: #129CF3;
+    color: #1295e7;
     padding-bottom: 15px;
 }
 .job {
@@ -231,10 +234,10 @@ p {
     
 }
 .carousel-indicators > li {
-    border: 1px solid #129Cf3;
+    border: 1px solid #1295e7;
 }
 .carousel-indicators .active {
-    background-color: #129CF3;
+    background-color: #1295e7;
 }
 /*SECTION-TIMELINE*/
 
@@ -302,7 +305,7 @@ p {
     top: 16px;
     left: 50%;
     margin-left: -25px;
-    background-color: #129CF3;
+    background-color: #1295e7;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -337,7 +340,7 @@ p {
     
 }
 .numbers-section .num-data  i {
-    color: #129CF3;
+    color: #1295e7;
     padding-bottom: 20px;
     transition: all .7s;
     -webkit-transition: all .7s;
@@ -374,7 +377,7 @@ p {
     padding-left: 20px;
 }
 .contact-us .list-unstyled i {
-    color: #129CF3;
+    color: #1295e7;
     transition: all 0.75s;
     -webkit-transition: all 0.75s;
     -o-transition: all 0.75s;
@@ -387,7 +390,7 @@ p {
 .footer-section {
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: #129CF3;
+    background-color: #093d5e;
     color: #FFF;
     text-align:center;
     font-weight: 500;
@@ -411,7 +414,7 @@ p {
     top: 0;
     left: 0;
     z-index: 99999;
-    background: #129CF3;
+    background: #1295e7;
     
 }
 /*spinner*/
