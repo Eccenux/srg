@@ -1,13 +1,15 @@
 $(document).ready(function(){
-    $('.navbar-brand img').css({
-               'opacity': '0'
-                
-            }); 
+	$('.navbar-brand img').css({
+		'opacity': '1'
+	}); 
+	$('.navbar').css ({
+		'margin-top': '-100px',
+		'opacity': '0'
+	});
 });
 
 
-/* Show and hide menu */
-
+/* Show and hide menu (onscroll) */
 $(document).ready(function(){
    
     'use strict';
@@ -101,6 +103,8 @@ $(document).ready(function(){
    });
 });
 
+// breaks mobile
+/*
 $(document).ready(
 
   function() { 
@@ -110,7 +114,7 @@ $(document).ready(
   }
 
 );
-
+*/
 
 /* active menu item on click */
 $(document).ready(function() {
