@@ -16,16 +16,6 @@ p {
     color: #1295e7;
 }
 
-.header-text {
-	margin-bottom: 320px;
-}
-@media (max-width: 770px) {
-	.header-text {
-		margin-inline: 1em;
-		margin-bottom: 120px;
-	}
-}
-
 /* =========== Navigation ============ */
 
 .navbar-default {
@@ -119,7 +109,6 @@ p {
     font-weight: 300;
     font-size: 48px;
     line-height: 60px;
-    padding-top: 120px;
 }
 .header-text p {
     color: #fff;
@@ -134,11 +123,6 @@ p {
 }
 .header-overlay {
     background-color: rgba(31, 31, 31, 0.75);
-}
-
-.header-btns {
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
 
 .header-btns a {

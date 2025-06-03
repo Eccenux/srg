@@ -27,7 +27,34 @@
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
 	
 </head>
-	<body> 
+	<body>
+<style>
+#HOME {
+	/* header before the fold */
+	.header-prefold {
+		height: 100svh;
+		display: flex;
+		flex-direction: column;
+
+		&::before, &::after {
+			display: none;
+		}
+
+		.header-texts {
+			flex: 1;
+		}
+		.header-grid {
+			display: grid;
+			align-content: space-between;
+			height: 100%;
+			/*
+			.header-text {}
+			.header-btns {}
+			*/
+		}
+	}
+}
+</style>
 
 	   <header class="header" id="HOME">
 				 <!-- Navigation -->
@@ -66,15 +93,15 @@
 			</nav>
 			<div class="header-overlay">
 				<div class="container">
-					<div>
-						<div>
+					<div class="header-prefold">
+						<div class="header-logo">
 							<!--Logo-->
 							<div class="logo text-center">
 								<img src="raw_pliki/srg_logo.png" alt="" width="120px" class="logoimg">
 							</div>
 						</div>
-						<div>
-							<div class="bounceIn animated" style="visibility: visible; animation-name: bounceIn;">
+						<div class="header-texts">
+							<div class="bounceIn animated header-grid" style="visibility: visible; animation-name: bounceIn;">
 								<div class="header-text">
 									<h1>Stowarzyszenie "Rowerowa Gdynia"</h1>
 									<p>im. Tomasza Milewskiego</p>
